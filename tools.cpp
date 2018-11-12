@@ -137,7 +137,7 @@ int readFrames(std::string iSource, const std::string iDst)
 //              std::cout << tmp0S << std::endl;
 //              std::cout << tmp0I << std::endl;
 //              std::cout << frame.channels() << std::endl;
-                tmp0I += 35;
+                tmp0I += 33;
 
                 cv::resize(frame, frame, dstFrame, 0, 0, cv::INTER_LANCZOS4);
                 tmp0S = iDst + '/' + tmp0S + ".nv21";
